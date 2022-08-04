@@ -21,6 +21,37 @@ div {
     justify-content: space-around;
  }
   
+ .drop-element {
+   color: black; /* about me text color, can change */
+   background-color: Transparent; /* changeable */
+   font-size: 32px; /* about me text size */
+}
+
+.about-content {
+   display: none;
+   position: absolute;
+   background-color: #121212;
+   min-width: 100px;
+   padding: 5px;
+}
+
+.about-content a:hover {
+   background-color: lightskyblue;
+}
+
+.dropdown:hover .about-content {
+   display: block;
+   font-size: 16px;
+}
+
+
+.about-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
  img {
     width: 120px;
  }
