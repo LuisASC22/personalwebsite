@@ -1,3 +1,9 @@
+#particles-js{
+   background-color: #579760;
+   height:500px;
+   width: auto;
+}
+
 div {
    display:flex;
    justify-content: center;
